@@ -1,0 +1,28 @@
+1. Create a folder as your wish and enter into it
+$ mkdir learn-django
+$ cd learn-django
+
+2. Set up virtual environment
+$ virtualenv -p python3 .
+
+3. To activate virtual env
+$ source bin/activate
+
+4. Installing Django
+$ pip install django==3.0.1
+
+5. To deactivate virtual env
+$ deactivate
+
+6. Check django
+$ pip freeze
+
+7. Create source folder and enter into it
+$ mkdir src
+$ cd src
+
+8. Create configuration folder
+$ django-admin startproject trydjango .
+
+9. Start the server
+$ python manage.py runserver
