@@ -1,28 +1,107 @@
-1. Create a folder as your wish and enter into it
-$ mkdir learn-django
-$ cd learn-django
+Step 1 – Installing Python
+If you're on one of the latest Linux or Mac OS X distribution, you probably already have Python installed. You can verify it by typing python command at a command prompt. If you see something like this, then Python is installed.
 
-2. Set up virtual environment
-$ virtualenv -p python3 .
+  $ python
+  Python 2.7.5 (default, Jun 17 2014, 18:11:42)
+  [GCC 4.8.2 20140120 (Red Hat 4.8.2-16)] on linux2
+  
+Otherwise, you can download and install the latest version of Python from the link http://www.python.org/download
 
-3. To activate virtual env
-$ source bin/activate
+Step 2 - Installing Django
+Installing Django is very easy, but the steps required for its installation depends on your operating system. Since Python is a platform-independent language, Django has one package that works everywhere regardless of your operating system.
+You can download the latest version of Django from the link http://www.djangoproject.com/download
 
-4. Installing Django
-$ pip install django==3.0.1
+UNIX/Linux and Mac OS X Installation
+Let's say you got your archive from the link above, it should be something like Django-x.xx.tar.gz:
+Extract and install.
 
-5. To deactivate virtual env
-$ deactivate
+  $ tar xzvf Django-x.xx.tar.gz
+  $ cd Django-x.xx
+  $ sudo python setup.py install
+  
+You can test your installation by running this command −
+  $ django-admin.py --version
 
-6. Check django
-$ pip freeze
+Windows Installation
 
-7. Create source folder and enter into it
-$ mkdir src
-$ cd src
+We assume you have your Django archive and python installed on your computer.
+First, PATH verification.
 
-8. Create configuration folder
-$ django-admin startproject trydjango .
+On some version of windows (windows 7) you might need to make sure the Path system variable has the path the following C:\Python34\;C:\Python34\Lib\site-packages\django\bin\ in it, of course depending on your Python version.
+Then, extract and install Django.
+  c:\>cd c:\Django-x.xx
+  
+Next, install Django by running the following command for which you will need administrative privileges in windows shell "cmd" −
+  c:\Django-x.xx>python setup.py install
 
-9. Start the server
-$ python manage.py runserver
+To test your installation, open a command prompt and type the following command −
+  c:\>python -c "import django; print(django.get_version())"
+
+If you see the current version of Django printed on screen, then everything is set.
+OR
+Launch a "cmd" prompt and type python then −
+
+c:\> python
+>>> import django
+>>> django.VERSION
+
+Step 3 – Database Setup
+Django supports several major database engines and you can set up any of them based on your comfort.
+
+  MySQL (http://www.mysql.com/)
+  PostgreSQL (http://www.postgresql.org/)
+  SQLite 3 (http://www.sqlite.org/)
+  Oracle (http://www.oracle.com/)
+  MongoDb (https://django-mongodb-engine.readthedocs.org)
+  GoogleAppEngine Datastore (https://cloud.google.com/appengine/articles/django-nonrel)
+
+Step 4 – Web Server
+Django comes with a lightweight web server for developing and testing applications. This server is pre-configured to work with Django, and more importantly, it restarts whenever you modify the code.
+
+However, Django does support Apache and other popular web servers such as Lighttpd. We will discuss both the approaches in coming chapters while working with different examples.
+
+Create a Project
+Whether you are on Windows or Linux, just get a terminal or a cmd prompt and navigate to the place you want your project to be created, then use this code −
+  $ django-admin startproject myproject
+  
+This will create a "myproject" folder with the following structure −
+
+myproject/
+   manage.py
+   myproject/
+      __init__.py
+      settings.py
+      urls.py
+      wsgi.py
+      
+Setting Up Your Project
+Your project is set up in the subfolder myproject/settings.py. Following are some important options you might need to set −
+  DEBUG = True
+
+This option lets you set if your project is in debug mode or not. Debug mode lets you get more information about your project's error. Never set it to ‘True’ for a live project. However, this has to be set to ‘True’ if you want the Django light server to serve static files. Do it only in the development mode.
+
+DATABASES = {
+   'default': {
+      'ENGINE': 'django.db.backends.sqlite3',
+      'NAME': 'database.sql',
+      'USER': '',
+      'PASSWORD': '',
+      'HOST': '',
+      'PORT': '',
+   }
+}
+
+Database is set in the ‘Database’ dictionary. The example above is for SQLite engine.
+      
+Now that your project is created and configured make sure it's working −
+  $ python manage.py runserver
+  
+You will get something like the following on running the above code −
+
+Validating models...
+
+0 errors found
+September 03, 2015 - 11:41:50
+Django version 1.6.11, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.      
