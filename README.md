@@ -2,48 +2,48 @@
 
 Django is a Python-based free and open-source web framework, which follows the model-template-view architectural pattern. It is maintained by the Django Software Foundation, an independent organization established as a 501 non-profit. Django's primary goal is to ease the creation of complex, database-driven websites.
 
-### Installing on Ubuntu for this project
+### Running commands for this project on Ubuntu
 
-#### Create a folder as your wish and enter into it
+#### Open a terminal and enter the commands onto it
 
-[$ mkdir learn-django]
+$ git clone https://github.com/shomnathsomu/learn-django.git
 
-[$ cd learn-django]
+$ cd learn-django/
 
 #### Set up virtual environment
 
-[$ virtualenv -p python3 .]
+$ virtualenv -p python3 .
 
 #### To activate virtual env
 
-[$ source bin/activate]
+$ source bin/activate
 
 #### Installing Django
 
-[$ pip install django==3.0.1]
+$ pip install django==3.0.1
 
 #### Check django
 
-[$ pip freeze]
+$ pip freeze
 
-#### Create source folder and enter into it
+#### Apply the migrations for app(s):
 
-[$ mkdir src]
+$ cd src
 
-[$ cd src]
+$ python manage.py migrate
 
-#### Create configuration folder
+#### Create a superuser for admin
 
-[$ django-admin startproject trydjango .]
+$ python manage.py createsuperuser
 
-#### Open a new tab in same derectory and start the server
+#### Open a new tab in the project directory and start the server
 
-[$ source bin/activate]
+$ source bin/activate
 
-[$ cd src]
+$ cd src
 
-[$ python manage.py runserver]
+$ python manage.py runserver
 
 #### To deactivate virtual env
 
-[$ deactivate]
+$ deactivate
