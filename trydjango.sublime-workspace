@@ -3,6 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"about",
+				"about_view"
+			],
+			[
+				"h",
+				"home_view"
+			]
 		]
 	},
 	"buffers":
@@ -40,13 +48,26 @@
 	},
 	"expanded_folders":
 	[
-		"/home/bjit-548/Desktop/learn-django"
+		"/home/bjit-548/Desktop/learn-django",
+		"/home/bjit-548/Desktop/learn-django/src"
 	],
 	"file_history":
 	[
-		"/home/bjit-548/Desktop/learn-django/src/trydjango/settings.py",
+		"/home/bjit-548/Desktop/learn-django/src/pages/views.py",
 		"/home/bjit-548/Desktop/learn-django/src/manage.py",
-		"/home/bjit-548/Desktop/learn-django/install.txt"
+		"/home/bjit-548/Desktop/learn-django/src/trydjango/urls.py",
+		"/home/bjit-548/Desktop/learn-django/src/trydjango/settings.py",
+		"/home/bjit-548/Desktop/learn-django/src/pages/models.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/models.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/views.py",
+		"/home/bjit-548/Desktop/learn-django/install.txt",
+		"/home/bjit-548/Desktop/learn-django/python_install.txt",
+		"/home/bjit-548/Desktop/learn-django/README.md",
+		"/home/bjit-548/Desktop/learn-django/src/products/migrations/0001_initial.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/admin.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/migrations/0002_product_summary.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/migrations/__init__.py",
+		"/home/bjit-548/Desktop/learn-django/src/db.sqlite3"
 	],
 	"find":
 	{
@@ -92,7 +113,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -163,7 +184,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 222.0,
+	"side_bar_width": 309.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
