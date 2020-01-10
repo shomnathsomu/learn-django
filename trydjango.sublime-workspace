@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"my",
+				"my_context"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
 				"about",
 				"about_view"
 			],
@@ -15,6 +27,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/pages/views.py",
+			"settings":
+			{
+				"buffer_size": 686,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/about.html",
+			"settings":
+			{
+				"buffer_size": 342,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -49,14 +79,23 @@
 	"expanded_folders":
 	[
 		"/home/bjit-548/Desktop/learn-django",
-		"/home/bjit-548/Desktop/learn-django/src"
+		"/home/bjit-548/Desktop/learn-django/src",
+		"/home/bjit-548/Desktop/learn-django/src/pages",
+		"/home/bjit-548/Desktop/learn-django/src/templates",
+		"/home/bjit-548/Desktop/learn-django/src/trydjango"
 	],
 	"file_history":
 	[
+		"/home/bjit-548/Desktop/learn-django/src/trydjango/settings.py",
+		"/home/bjit-548/Desktop/learn-django/src/templates/base.html",
+		"/home/bjit-548/Desktop/learn-django/src/templates/navbar.html",
+		"/home/bjit-548/Desktop/learn-django/src/templates/about.html",
+		"/home/bjit-548/Desktop/learn-django/src/templates/contact.html",
+		"/home/bjit-548/Desktop/learn-django/src/templates/home.html",
+		"/home/bjit-548/Desktop/learn-django/src/products/migrations/0002_product_featured.py",
 		"/home/bjit-548/Desktop/learn-django/src/pages/views.py",
 		"/home/bjit-548/Desktop/learn-django/src/manage.py",
 		"/home/bjit-548/Desktop/learn-django/src/trydjango/urls.py",
-		"/home/bjit-548/Desktop/learn-django/src/trydjango/settings.py",
 		"/home/bjit-548/Desktop/learn-django/src/pages/models.py",
 		"/home/bjit-548/Desktop/learn-django/src/products/models.py",
 		"/home/bjit-548/Desktop/learn-django/src/products/views.py",
@@ -102,8 +141,65 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/pages/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
