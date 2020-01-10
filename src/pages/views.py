@@ -13,7 +13,12 @@ def contact_view(request, *args, **kwargs):
 
 
 def about_view(request, *args, **kwargs):
-	return render(request, "about.html", {})
+        my_context = {
+	    "my_text": "This is about us",
+	    "my_number": 123,
+	    "my_array": [121,343,566,789,12,"dfg"]
+	}
+	return render(request, "about.html", my_context)
 
 
 def social_view(request, *args, **kwargs):
