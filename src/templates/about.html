@@ -14,8 +14,14 @@
 	</ul>
 
 	<ul>
-		{% for my_sub_item in my_array %}
-			<li>{{forloop.counter}} - {{my_sub_item}}</li>
-		{% endfor %}
+	{% for abc in my_array %}
+		{% if abc == 566 %}
+			<li>{{forloop.counter}} - {{abc|add:34}}</li>
+		{% elif abc == "dfg" %}
+			<li>This is not the nextwork.</li>
+		{% else %}
+			<li>{{forloop.counter}} - {{abc}}</li>
+		{% endif %}
+	{% endfor %}
 	</ul>
 {% endblock %}
