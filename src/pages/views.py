@@ -14,9 +14,11 @@ def contact_view(request, *args, **kwargs):
 
 def about_view(request, *args, **kwargs):
 	my_context = {
-		"my_text": "This is about us",
-		"my_number": 123,
-		"my_array": [121,343,566,789,12,"dfg"]
+		"title": "i\'m using django.",
+		"my_desc": "This is a template",
+		"my_number": 312,
+		"my_array": [121,343,566,789,12,"dfg"],
+		"my_html": "<h2>Hey html</h2>"
 	}
 
 	return render(request, "about.html", my_context)
