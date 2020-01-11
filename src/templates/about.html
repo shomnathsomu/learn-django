@@ -2,11 +2,15 @@
 
 {% block content %}
 	<h1>About us!</h1>
-	<p>This is a template. Here we go.</p>
+	<h3>{{title|upper}}</h3>
+	<h3>{{my_desc|capfirst}}</h3>
+	<p>Here we go.</p>
 
 	<p>
-		{{my_text}}, {{my_number}}, {{my_array}}
+		{{my_number}}, {{my_array}}
 	</p>
+
+	{{my_html|safe}}
 
 	<ul>
 		<li>Item 1</li>
