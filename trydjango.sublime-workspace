@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"Pro",
+				"ProductForm"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
 				"my",
 				"my_context"
 			],
@@ -64,14 +76,19 @@
 		"/home/bjit-548/Desktop/learn-django/src",
 		"/home/bjit-548/Desktop/learn-django/src/products",
 		"/home/bjit-548/Desktop/learn-django/src/products/templates",
-		"/home/bjit-548/Desktop/learn-django/src/products/templates/products"
+		"/home/bjit-548/Desktop/learn-django/src/products/templates/products",
+		"/home/bjit-548/Desktop/learn-django/src/trydjango"
 	],
 	"file_history":
 	[
 		"/home/bjit-548/Desktop/learn-django/src/products/views.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/templates/products/product_create.html",
 		"/home/bjit-548/Desktop/learn-django/src/products/templates/products/product_detail.html",
-		"/home/bjit-548/Desktop/learn-django/src/templates/product/detail.html",
 		"/home/bjit-548/Desktop/learn-django/src/trydjango/urls.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/models.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/forms.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/migrations/0003_auto_20200114_0518.py",
+		"/home/bjit-548/Desktop/learn-django/src/templates/product/detail.html",
 		"/home/bjit-548/Desktop/learn-django/src/pages/views.py",
 		"/home/bjit-548/Desktop/learn-django/src/templates/about.html",
 		"/home/bjit-548/Desktop/learn-django/src/templates/base.html",
@@ -82,7 +99,6 @@
 		"/home/bjit-548/Desktop/learn-django/src/products/migrations/0002_product_featured.py",
 		"/home/bjit-548/Desktop/learn-django/src/manage.py",
 		"/home/bjit-548/Desktop/learn-django/src/pages/models.py",
-		"/home/bjit-548/Desktop/learn-django/src/products/models.py",
 		"/home/bjit-548/Desktop/learn-django/install.txt",
 		"/home/bjit-548/Desktop/learn-django/python_install.txt",
 		"/home/bjit-548/Desktop/learn-django/README.md",
