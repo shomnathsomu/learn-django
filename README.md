@@ -36,7 +36,7 @@ $ python manage.py migrate
 
 $ python manage.py createsuperuser
 
-#### Open a new tab in the project directory and start the server
+#### Open a new terminal in the project directory and start the server
 
 $ source bin/activate
 
