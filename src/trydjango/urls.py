@@ -30,6 +30,6 @@ urlpatterns = [
 	path('contact/', contact_view),
     path('create/', product_create_view),
     path('update/', render_intial_data),
-    path('product/<int:my_id>/', dynamic_lookup_view, name='product'),
+    path('product/<int:id>/', dynamic_lookup_view, name='product'),
     path('admin/', admin.site.urls),
 ]
