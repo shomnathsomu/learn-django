@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"cl",
-				"cleaned_data"
+				"obje",
+				"object"
+			],
+			[
+				"produc",
+				"product"
+			],
+			[
+				"pro",
+				"products"
 			],
 			[
 				"obj",
-				"objects"
+				"obj"
+			],
+			[
+				"intial_",
+				"initial_data"
+			],
+			[
+				"cl",
+				"cleaned_data"
 			],
 			[
 				"Pro",
@@ -48,28 +64,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/products/templates/products/product_create.html",
-			"settings":
-			{
-				"buffer_size": 507,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/products/views.py",
 			"settings":
 			{
-				"buffer_size": 1419,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/products/forms.py",
-			"settings":
-			{
-				"buffer_size": 1725,
-				"encoding": "UTF-8",
+				"buffer_size": 2159,
 				"line_ending": "Unix"
 			}
 		}
@@ -110,16 +108,19 @@
 		"/home/bjit-548/Desktop/learn-django/src",
 		"/home/bjit-548/Desktop/learn-django/src/products",
 		"/home/bjit-548/Desktop/learn-django/src/products/templates",
-		"/home/bjit-548/Desktop/learn-django/src/products/templates/products"
+		"/home/bjit-548/Desktop/learn-django/src/products/templates/products",
+		"/home/bjit-548/Desktop/learn-django/src/trydjango"
 	],
 	"file_history":
 	[
+		"/home/bjit-548/Desktop/learn-django/src/products/templates/products/product_delete.html",
 		"/home/bjit-548/Desktop/learn-django/src/products/views.py",
-		"/home/bjit-548/Desktop/learn-django/src/products/templates/products/product_create.html",
-		"/home/bjit-548/Desktop/learn-django/src/products/templates/products/product_detail.html",
 		"/home/bjit-548/Desktop/learn-django/src/trydjango/urls.py",
+		"/home/bjit-548/Desktop/learn-django/trydjango.sublime-project",
 		"/home/bjit-548/Desktop/learn-django/src/products/models.py",
 		"/home/bjit-548/Desktop/learn-django/src/products/forms.py",
+		"/home/bjit-548/Desktop/learn-django/src/products/templates/products/product_create.html",
+		"/home/bjit-548/Desktop/learn-django/src/products/templates/products/product_detail.html",
 		"/home/bjit-548/Desktop/learn-django/src/products/migrations/0003_auto_20200114_0518.py",
 		"/home/bjit-548/Desktop/learn-django/src/templates/product/detail.html",
 		"/home/bjit-548/Desktop/learn-django/src/pages/views.py",
@@ -174,52 +175,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/products/templates/products/product_create.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 507,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								381,
-								381
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "src/products/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1419,
+						"buffer_size": 2159,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								488,
-								488
+								240,
+								240
 							]
 						],
 						"settings":
@@ -229,35 +202,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/products/forms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1725,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1120,
-								1120
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 969.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
