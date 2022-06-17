@@ -12,6 +12,7 @@ $ cd learn-django/
 
 #### Set up virtual environment
 
+$ sudo apt install python3-virtualenv
 $ virtualenv -p python3 .
 
 #### To activate virtual env
